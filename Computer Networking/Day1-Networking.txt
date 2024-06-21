@@ -1,0 +1,99 @@
+﻿Computer Networking
+Day 1 
+
+
+Assignment 1.write some network terminology.
+Basic Terms
+* Network: A collection of interconnected devices that can communicate with each other.
+* Node: Any device connected to a network (e.g., computer, printer, router).
+* Host: A node that can be used by a human (e.g., computers, phones).
+Networking Devices
+* Router: A device that forwards data packets between computer networks.
+* Switch: A device that connects devices within a single network, using MAC addresses to forward data to the correct destination.
+* Hub: A basic networking device that connects multiple devices in a network, broadcasting data to all connected devices.
+* Modem: A device that modulates and demodulates signals for data transmission over telephone lines or cable systems.
+* Access Point (AP): A device that allows wireless devices to connect to a wired network.
+Protocols
+* TCP/IP (Transmission Control Protocol/Internet Protocol): A suite of communication protocols used to interconnect network devices on the internet.
+* HTTP/HTTPS (HyperText Transfer Protocol/Secure): Protocols used for transmitting web pages over the internet.
+* FTP (File Transfer Protocol): A standard network protocol used for the transfer of computer files.
+* DNS (Domain Name System): The system that translates domain names into IP addresses.
+* SMTP (Simple Mail Transfer Protocol): A protocol for sending email.
+Addressing
+* IP Address: A unique address assigned to each device on a network.
+   * IPv4: 32-bit address (e.g., 192.168.1.1).
+   * IPv6: 128-bit address (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+* MAC Address: A unique identifier assigned to network interfaces for communications on the physical network segment.
+Network Topologies
+* Bus Topology: All devices are connected to a single central cable (the bus).
+* Star Topology: All devices are connected to a central hub or switch.
+* Ring Topology: Each device is connected to two other devices, forming a ring.
+* Mesh Topology: Devices are interconnected, with multiple pathways for data to travel.
+Network Types
+* LAN (Local Area Network): A network covering a small geographic area, like a home or office.
+* WAN (Wide Area Network): A network covering a large geographic area, often composed of multiple LANs.
+* MAN (Metropolitan Area Network): A network that covers a larger geographic area than a LAN but smaller than a WAN, such as a city.
+Security
+* Firewall: A security system that monitors and controls incoming and outgoing network traffic.
+* VPN (Virtual Private Network): A service that creates a secure, encrypted connection over a less secure network, such as the internet.
+* Encryption: The process of converting data into a coded format to prevent unauthorised access.
+Data Transmission
+* Bandwidth: The maximum rate of data transfer across a network.
+* Latency: The delay before a transfer of data begins following an instruction.
+* Packet: A small segment of data transmitted over a network.
+* Throughput: The actual rate of successful data transfer across a network.
+Network Models
+* OSI Model (Open Systems Interconnection): A conceptual framework used to understand and implement standard protocols in seven layers: Physical, Data Link, Network, Transport, Session, Presentation, Application.
+  
+
+
+
+Assignment 2: 
+1. Draw your Home Network Topology 
+
+
+Star topology is used in my home   
+
+
+                                        TV
+                                                                        
+
+
+
+
+
+
+
+
+                                                                       desktop
+                                                                                  
+  Mobile                                    WiFi router
+
+
+
+
+
+
+
+
+
+
+
+
+                                      Laptop
+
+
+
+
+
+
+B. explain how you are accessing the RPS Lab environment.
+
+
+* Login : Access through credentials that provided by lab service provider
+* Internet connectivity
+* DNS
+* Launching VM
+* Secure connection made by Identity and Access Management (IAM) will provide access.
+* RDP(Remote Desktop Protocol): For graphical interface access to Windows-based VMs.
+* Use the resource
