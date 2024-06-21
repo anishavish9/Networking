@@ -1,0 +1,41 @@
+﻿SRS Documentation : Online Flight Booking
+1. Overview of the Online Flight Booking System
+An online flight booking system is a digital platform designed to facilitate the process of booking flights over the internet. The features like travel agents, and passengers. Below is an overview of the key components typically found in an online flight booking system:
+* Flight Listings: Airlines to list available flights with details such as flight number, departure and arrival times, destination, price, and available seats.
+* Flight Search: Users can search for flights based on their preferences like departure and arrival locations, dates, price range.
+* User Login: Users can create accounts on the platform to save searches and bookings
+* Flight Details: Detailed information about each flight listing.
+* Notifications: Users receive alerts for flight updates, price changes, and messages from airlines regarding their bookings or inquiries.
+* Booking and Payment: The system features a booking process for flight reservations and integrates a secure payment gateway for transactions.
+* Reviews and Ratings: Users can provide feedback, ratings, and reviews for flights.
+* Admin Dashboard: Backend tools for administrators to manage listings, users, payments, analytics, and overall application performance.
+2. Functional Requirements
+User Login
+* User Registration: Allow users to register with personal information.
+* User Authentication: Implement secure login procedures.
+* User Profile: Users can view and update their profiles.
+Flight Listing
+* Flight Upload: Airlines can add new flight listings.
+* Flight Details: Include fields for flight description, price, departure and arrival locations, times, and images.
+Search: Users can search flights using filters.
+Booking
+Allow users to book flights and make reservations.
+Payment 
+Integrate a secure payment system for flight transactions.
+Feedback System
+* User Reviews: Users can provide feedback, ratings, and reviews for flights they have taken.
+Notification System
+* Email Notifications: Send notifications for flight updates, bookings, and payments.
+* Real-time Alerts: Notify users about flight status changes or price updates.
+Admin Panel
+* Dashboard: Offer admin tools for managing users, flights, and transactions.
+* Reporting: Generate reports on user activity, flight performance, etc.
+3. Non-Functional Requirements
+* Response Time: Ensure quick loading times for flight listings and search results.
+* Data Encryption: Secure user data and transactions with encryption protocols.
+* Access Control: Implement role-based access control for users and admins.
+* User Interface: Design an intuitive and visually appealing interface.
+4. System Architecture
+* Frontend: React.js.
+* Backend: Java, Spring Boot.
+* Database: MySQL or MongoDB for data storage.
